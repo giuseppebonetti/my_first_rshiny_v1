@@ -1,0 +1,25 @@
+0.HO DOVUTO PRIMA INSTALLARE GIT E CNFIGURARLO CON UN PAIO DI RIDE DI CODICE DA TERMINALE g.bonetti e mia email personale
+
+1.Da terminale apri la cartella di progetto con cd
+
+
+2.POI DEVI COLLEGARE LA CARTELLA AL PROGETTO GIT HUB
+
+git init  # Inizializza Git nella cartella
+git remote add origin https://github.com/giuseppebonetti/my_first_rshiny_v1.git  # Collega il repo remoto
+git branch -M main  # Assicura che il branch principale sia "main"
+git add .  # Aggiunge tutti i file al tracking di Git
+git commit -m "Primo commit"  # Salva il primo stato del progetto
+git push -u origin main  # Carica il codice su GitHub
+
+3.QUESTO COMANDO CREA UN BRANCH SU CUI INIZIERAI A LOVAORARE
+git checkout -b branchname1
+
+PER SALAVRE LE MODIFICHE
+git add .
+git commit -m
+
+PER UNIRE AL CODICE PRINICPALE
+git checkout main  # Torna al branch principale
+git merge nuova-funzionalita  # Unisce il branch principale con le modifiche
+git push origin main  # Carica su GitHub
